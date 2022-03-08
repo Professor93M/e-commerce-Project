@@ -5,7 +5,7 @@
             <div class="sm:flex sm:mt-8">
                 <div class="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-around">
                     <div class="flex flex-col text-center order-2">
-                        <inertia-link href="/" class="font-extrabold text-gray-400 text-2xl font-mono uppercase filter drop-shadow-lg hover:text-gray-100 transition duration-500">Silk Road MiddleEast</inertia-link>
+                        <inertia-link href="/" class="font-extrabold text-gray-400 text-2xl font-mono uppercase filter drop-shadow-lg hover:text-gray-100 transition duration-500">SAUC E-Commerce</inertia-link>
                         <span class="my-2 text-gray-400 font-light">All what you need is only here</span>
                     </div>
                     <div class="flex flex-col">
@@ -25,7 +25,7 @@
             <div class="mt-4 border-t-2 border-gray-500 border-opacity-40 flex flex-col items-center">
                 <div class="sm:w-2/3 text-center py-3">
                     <p class="text-sm text-gray-400 font-bold mb-1">
-                        {{ moment().format('YYYY') }} - All Right Received for Silk Road MiddleEast
+                        {{ moment().format('YYYY') }} - All Right Received
                     </p>
                 </div>
             </div>

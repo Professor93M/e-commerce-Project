@@ -1,8 +1,8 @@
 <template>
     <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-700">
-        <div>
-            <inertia-link href="/">
-                <breeze-application-logo class="w-60 mt-20 mb-3 h-20 fill-current text-gray-500" />
+        <div class="mt-28 mb-10 font-black">
+            <inertia-link class="text-white text-4xl" href="/">
+                SAUC E-Commerce
             </inertia-link>
         </div>
 
@@ -13,11 +13,9 @@
 </template>
 
 <script>
-    import BreezeApplicationLogo from '@/Components/Auth/ApplicationLogo'
 
     export default {
         components: {
-            BreezeApplicationLogo,
         }
     }
 </script>

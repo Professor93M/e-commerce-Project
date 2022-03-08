@@ -9,8 +9,7 @@
                     <XIcon v-else class="block h-6 w-6" aria-hidden="true" />
                 </DisclosureButton>
                 <div class="flex-shrink-0 flex items-center px-3 ">
-                    <BreezeApplicationLogo class="block w-36 mt-1 mx-2 order1" />
-                    <inertia-link href="/" class="font-extrabold text-gray-400 text-2xl font-mono filter drop-shadow-lg hover:text-gray-100 transition duration-500">Silk Road MiddleEast</inertia-link>
+                    <inertia-link href="/" class="font-extrabold text-gray-400 text-2xl font-mono filter drop-shadow-lg hover:text-gray-100 transition duration-500">SAUC E-Commerce</inertia-link>
                 </div>
             </div>
             <div class="flex lg:col-start-3 lg:col-span-4 mx-2 mb-2">
@@ -156,7 +155,6 @@
     import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
     import { BellIcon, MenuIcon, XIcon } from '@heroicons/vue/outline'
     import {Inertia} from "@inertiajs/inertia"
-    import BreezeApplicationLogo from '@/Components/Auth/ApplicationLogo'
 
 export default {
   components: {
@@ -170,7 +168,6 @@ export default {
     BellIcon,
     MenuIcon,
     XIcon,
-    BreezeApplicationLogo,
   },
   props: ['logged'],
   data() {

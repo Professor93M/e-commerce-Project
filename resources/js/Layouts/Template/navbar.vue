@@ -308,6 +308,6 @@ export default {
         background-color: #F59E0B;
     }
     .top{
-        top: 66px
+        top: 49px
     }
 </style>
